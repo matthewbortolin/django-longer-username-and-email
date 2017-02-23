@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AlterField('auth_user', 'email', models.CharField(max_length=254)),
-        migrations.AlterField('auth_user', 'username', models.CharField(max_length=254))
+        migrations.AlterField('user', 'email', models.CharField(max_length=254)),
+        migrations.AlterField('user', 'username', models.CharField(max_length=254))
     ]
